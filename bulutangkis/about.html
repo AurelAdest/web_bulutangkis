@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="home">
+        <header>
+            <a href="#" class="logo">About</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Bulu Tangkis</h2>
+                <p>
+                    Bulu tangkis, badminton, atau tepuk bulu adalah suatu olahraga yang menggunakan alat yang berbentuk
+                    bulat dengan memiliki rongga-rongga di bagian pemukulnya. Dan memiliki gagang. Alat ini dikenal
+                    dengan nama raket yang dimainkan oleh dua orang (untuk tunggal) atau dua pasangan (untuk ganda) yang
+                    saling berlawanan.
+                    Bulu tangkis bertujuan memukul bola permainan bulu tangkis, yaitu kok melewati jaring agar jatuh di
+                    bidang permainan lawan yang sudah ditentukan dan berusaha mencegah lawan melakukan hal yang sama.
+                </p>
+            </div>
+            <div class="imgBox">
+                <img src="img/badminton5.png" alt="" class="sports">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<script>
+    function imgSlider(someThing) {
+        document.querySelector('.sports').src = someThing;
+    }
+    function changeColor(color) {
+        const sec = document.querySelector('.home');
+        sec.style.background = color;
+    }
+</script>
